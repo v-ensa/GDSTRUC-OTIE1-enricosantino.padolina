@@ -24,7 +24,7 @@ public class Main {
         // let n = number of elements in nums array
         // outer for loop -> n - 1 iterations
         // inner for loop -> n - 1 iterations (1st pass)
-        // inner for loop -> (n - 1) + (n - 2) + (n - 3) .. 1 -> (n * (n - 1)) / 2 -> (n^2 - n) / 2
+        // inner for loop -> (n - 1) + (n - 2) + (n - 3) ... 1 -> (n * (n - 1)) / 2 -> (n^2 - n) / 2
         // time complexity -> O(n^2)
         for (int lastUnsortedIndex = nums.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
             for (int i = 0; i < lastUnsortedIndex; i++) {
@@ -41,7 +41,7 @@ public class Main {
         // let n = number of elements in nums array
         // outer for loop -> n - 1 iterations
         // inner for loop -> n - 1
-        // inner for loop -> (n - 1) + (n - 2) + (n - 3) .. 1 -> (n * (n - 1)) / 2 -> (n^2 - n) / 2
+        // inner for loop -> (n - 1) + (n - 2) + (n - 3) ... 1 -> (n * (n - 1)) / 2 -> (n^2 - n) / 2
         // time complexity -> O(n^2)
         for (int lastUnsortedIndex = nums.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
             int smallest = 0;
